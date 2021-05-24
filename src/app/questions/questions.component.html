@@ -1,0 +1,66 @@
+<div class="container">
+  
+  <div class="question-card" *ngIf = "currentQuestion != null && !showAssessmentSubmit">
+    <mat-card class="card">
+      <div class="que-no">
+        <label id="example-radio-group-label">{{pageNo}}/{{questions.length}}</label>
+      </div>
+      <div *ngIf ="currentQuestion.questionType === 'radio'">
+       <div>
+        <label id="example-radio-group-label"> {{currentQuestion.category}}</label>
+       </div> 
+       <div class="que-title">
+        <label id="example-radio-group-label"> {{currentQuestion.name}}</label>
+       </div>
+        <mat-radio-group
+          aria-labelledby="example-radio-group-label"
+          [(ngModel)]="currentQuestion.selectedAnswer"
+          class="example-radio-group">
+          <mat-radio-button class="example-radio-button" 
+          *ngFor="let item of  currentQuestion?.options"
+           [value]="item.id">
+            {{item.name}}
+          </mat-radio-button>
+        </mat-radio-group>
+      </div>
+      <div *ngIf ="currentQuestion.questionType === 'multi'">
+        <label id="example-radio-group-label"> {{currentQuestion.name}}</label>
+        <ul>
+          <li *ngFor="let item of  currentQuestion?.options">
+            <mat-checkbox 
+            [(ngModel)]="item.checked"
+            (ngModelChange)="selectCheckEvent(item)">
+              {{item.name}}
+            </mat-checkbox>
+          </li>
+        </ul>
+      </div>
+    </mat-card>
+
+    
+    </div>
+
+    <div class="button-parent">
+      <div class="button-box" *ngIf="!showAssessmentSubmit">
+        <button mat-button class="navigate-button previous-button"
+         (click) ="clickPrev()" [disabled]="currentQuestion?.order === 1" >Previous</button>
+        <button mat-button class="submit-button"
+        [disabled] = "currentQuestion?.selectedAnswer === null || 
+        currentQuestion?.selectedAnswer.length === 0"
+         (click) ="clickSubmit(currentQuestion)">Submit</button>
+        <button mat-button class="skip-button"
+         (click) ="clickSkipp(currentQuestion)">Skipp</button>
+        <button mat-button class="navigate-button next-button" (click) ="clickNext()"
+        [disabled] = "isNext === false">Next</button>
+      </div>
+      <div *ngIf="showAssessmentSubmit">
+        <button mat-button class="submit-button"
+         (click) ="clickSubmitAssessment()">Submit The Assessment</button>
+      </div>
+    </div>
+
+    
+  
+
+</div>
+

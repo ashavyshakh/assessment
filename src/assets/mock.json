@@ -1,0 +1,227 @@
+{
+    "summary" : {
+
+    },
+    "data" : [
+        {
+        "id" :"a",
+        "name" : "Fathometer is used to measure",
+        "category": "general-knowledge",
+        "selectedAnswer" : null,
+        "questionType" : "radio",
+        "isActive" : true,
+        "isSkipp" : false,
+        "order": 1,
+        "options" : [
+            {
+                "id":"a1",
+                "questionId" : "a",
+                "name" :"Earthquakes",
+                "isAnswer" : false
+            },
+            {
+                "id":"a2",
+                "questionId" : "a",
+                "name" :"Rainfall",
+                "isAnswer" : false
+            },
+            {
+                "id":"a3",
+                "questionId" : "a",
+                "name" :"Ocean depth",
+                "isAnswer" : false
+            },
+            {
+                "id":"a4",
+                "questionId" : "a",
+                "name" :"Sound intensity",
+                "isAnswer" : true
+            }
+        ]
+        },
+        {
+            "id" :"b",
+            "name" : " Express a speed of 36 kmph in meters per second?",
+            "questionType" : "radio",
+            "category": "aptitude",
+            "selectedAnswer" : null,
+            "isActive" : true,
+            "isSkipp" : false,
+            "order": 2,
+            "options" : [
+                {
+                    "id":"b1",
+                    "questionId" : "b",
+                    "name" :"10 mps",
+                    "isAnswer" : true
+                },
+                {
+                    "id":"b2",
+                    "questionId" : "b",
+                    "name" :"12 mps",
+                    "isAnswer" : false
+                },
+                {
+                    "id":"b3",
+                    "questionId" : "b",
+                    "name" :"14 mps",
+                    "isAnswer" : false
+                },
+                {
+                    "id":"b4",
+                    "questionId" : "b",
+                    "name" :"17 mps",
+                    "isAnswer" : false
+                }
+            ]
+        },
+        {
+            "id" :"c",
+            "name" : "In a certain code language 'they have come back' is written as 'na ja sa da' and 'they have gone there' is written as 'da ka pa na'. How is 'come' written in that code language?",
+            "questionType" : "radio",
+            "category": "reasoning",
+            "selectedAnswer" : null,
+            "isActive" : true,
+            "isSkipp" : false,
+            "order": 3,
+            "options" : [
+                {
+                    "id":"c1",
+                    "questionId" : "c",
+                    "name" :"sa",
+                    "isAnswer" : true
+                },
+                {
+                    "id":"c2",
+                    "questionId" : "c",
+                    "name" :"na",
+                    "isAnswer" : false
+                },
+                {
+                    "id":"c3",
+                    "questionId" : "c",
+                    "name" :"ja",
+                    "isAnswer" : false
+                },
+                {
+                    "id":"c4",
+                    "questionId" : "c",
+                    "name" :"sa or ja",
+                    "isAnswer" : true
+                }
+            ]
+        },
+        {
+            "id" :"d",
+            "name" : "71/7 - 31/14 + 22/7 = ?",
+            "questionType" : "radio",
+            "category": "numerical-ability",
+            "isActive" : true,
+            "isSkipp" : false,
+            "selectedAnswer" : null,
+            "order": 4,
+            "options" : [
+                {
+                    "id":"d1",
+                    "questionId" : "d",
+                    "name" :"65/14",
+                    "isAnswer" : true,
+                    "checked": false
+                },
+                {
+                    "id":"d2",
+                    "questionId" : "d",
+                    "name" :"45/14",
+                    "isAnswer" : false,
+                    "checked": false
+                },
+                {
+                    "id":"d3",
+                    "questionId" : "d",
+                    "name" :"23/14",
+                    "isAnswer" : false,
+                    "checked": false
+                },
+                {
+                    "id":"d4",
+                    "questionId" : "d",
+                    "name" :"711/14",
+                    "isAnswer" : false,
+                    "checked": false
+                }
+            ]
+        },
+        {
+            "id" :"e",
+            "name" : "Select the name of animals from the lists",
+            "category": "general-knowledge",
+            "questionType" : "multi",
+            "isActive" : true,
+            "selectedAnswer" : [],
+            "isSkipp" : false,
+            "order": 5,
+            "options" : [
+                {
+                    "id":"e1",
+                    "questionId" : "e",
+                    "name" :"Apple",
+                    "isAnswer" : false
+                },
+                {
+                    "id":"e2",
+                    "questionId" : "e",
+                    "name" :"Cat",
+                    "isAnswer" : true
+                },
+                {
+                    "id":"e3",
+                    "questionId" : "e",
+                    "name" :"Orange",
+                    "isAnswer" : false
+                },
+                {
+                    "id":"e4",
+                    "questionId" : "e",
+                    "name" :"Ant",
+                    "isAnswer" : true
+                }
+            ]
+        },
+        {
+            "id" :"f",
+            "name" : "In the following the questions choose the word which best expresses the meaning of the  word 'CORPULENT'",
+            "category": "general-knowledge",
+            "selectedAnswer" : null,
+            "questionType" : "radio",
+            "isActive" : true,
+            "isSkipp" : false,
+            "order": 6,
+            "options" : [
+                {
+                    "id":"f1",
+                    "questionId" : "a",
+                    "name" :"Lean",
+                    "isAnswer" : false
+                },
+                {
+                    "id":"f2",
+                    "questionId" : "a",
+                    "name" :"Gaunt",
+                    "isAnswer" : false
+                },
+                {
+                    "id":"f3",
+                    "questionId" : "a",
+                    "name" :"Emaciated",
+                    "isAnswer" : false
+                },
+                {
+                    "id":"f4",
+                    "questionId" : "a",
+                    "name" :"Obese",
+                    "isAnswer" : true
+                }
+            ]
+            }
+    ]
+}

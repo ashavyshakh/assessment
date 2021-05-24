@@ -1,0 +1,9 @@
+<mat-dialog-content>
+  {{message}}
+</mat-dialog-content>
+<mat-dialog-actions align="end">
+<button mat-raised-button color="primary" 
+(click)="clickOk()" mat-dialog-close tabindex="-1">{{yesButtonText}}</button>
+<button mat-raised-button (click)="clickNo()"
+color="primary" mat-dialog-close tabindex="-1">{{cancelButtonText}}</button>
+</mat-dialog-actions>

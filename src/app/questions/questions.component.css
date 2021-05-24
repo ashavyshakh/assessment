@@ -1,0 +1,58 @@
+
+.container{
+    width: 100%;
+}
+
+.example-radio-group {
+    display: flex;
+    flex-direction: column;
+    margin: 15px 0;
+  }
+  
+  .example-radio-button {
+    margin: 5px;
+  }
+  .card{
+      width: 60%;
+      margin: auto;
+      margin-top: 50px;
+      text-align: left;
+  }
+  .button-box{
+     margin: auto;
+  }
+  .button-parent{
+      width: 100%;
+      align-items: center;
+      margin-top: 30px;
+  }
+  .navigate-button{
+    background-color: #00b8ffc7;
+    color: white;
+  }
+  .previous-button{
+    position: relative;
+    right: 285px;
+  }
+  .next-button{
+    position: relative;
+    left: 285px;
+  }
+  .submit-button{
+   background-color:  #0fb30fc9 ;
+   color: #ffff;
+  }
+  .skip-button{
+    background-color: grey;
+    margin-left: 20px;
+  }
+  ul {
+    list-style-type: none;
+    margin-top: 4px;
+  }
+  .que-no{
+    float: right;
+  }
+  .que-title{
+    margin-top: 30px;
+  }
